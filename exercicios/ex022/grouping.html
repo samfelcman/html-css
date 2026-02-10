@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #6b6b6b;
+            margin: 0px;
+        }
+
+        a {
+            color: aliceblue;
+        }
+
+
+        header {
+            background-color: #bdbdbd;
+            padding: 15px;
+            margin: 10px 5px 5px 5px;
+            font-size: x-large;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: #1d1d1d;
+            text-decoration: none;
+            color: #3d3d3d;
+            margin: 2px;
+            box-shadow: 9px -6px 9px 0px #ffffff;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: #bdbdbd;
+            padding: 15px;
+            margin: 10px 5px 5px 5px;
+            border-radius: 10px 40px;
+            box-shadow: 4px 4px 9px black;
+        }
+
+        article {
+            background-color: #bdbdbd;
+            font-size: x-large;
+            font-style: italic;
+        }
+        article > aside {
+            background-color: #6b6b6b;
+            color: aliceblue;
+            font: bolder;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: #ffffff;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+            font-style: italic;
+            font-size: larger;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href ="#">Link</a>
+            <a href ="#">Link</a>
+            <a href ="#">Link</a>
+            <a href ="#">Link</a>
+            <a href ="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos"></section>
+        <section id="Noticias">
+            <article>
+                <h2>Desenvolvimento da empresa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum temporibus provident facilis, illo, sit laudantium voluptatum laborum dignissimos quisquam totam sapiente asperiores consectetur perferendis earum quaerat architecto? Nisi, recusandae rem.</p>
+                <aside>
+                    <p>Site criado por Sam Felcman</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo FelcmanDynamics</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
